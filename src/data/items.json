@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "title": "Logitech Z-2300 THX 2.1 speakers and subwoofer",
+        "image": "./images/1.jpg",
+        "description": "The subwoofer and control panel work great. The satellites buzz at high volumes, but work fine when turned down."
+    },
+    {
+        "id": "2",
+        "title": "Wooden work table",
+        "image": "./images/2.jpg",
+        "description": "Worn, but solid."
+    },
+    {
+        "id": "3",
+        "title": "Boxing gloves and handwraps",
+        "image": "./images/3.jpg",
+        "description": "New and unused."
+    },
+    {
+        "id": "4",
+        "title": "Thermos stainless steel water bottle",
+        "image": "./images/4.jpg",
+        "description": "New and unused."
+    },
+    {
+        "id": "5",
+        "title": "Dining chairs, matching set of 6",
+        "image": "./images/5.jpg",
+        "description": ""
+    },
+    {
+        "id": "6",
+        "title": "Rachael Ray 5-Quart Nonstick Saute Pan with lid",
+        "image": "./images/6.jpg",
+        "description": "Rarely used, in excellent condition."
+    },
+    {
+        "id": "7",
+        "title": "Lodge Cast Iron Square Grill Pan",
+        "image": "./images/7.jpg",
+        "description": "Rarely used, in good condition."
+    },
+    {
+        "id": "8",
+        "title": "One-gallon glass jars, set of 6",
+        "image": "./images/8.jpg",
+        "description": "These jars previously held refrigerated kimchi. They have since been washed and stored."
+    },
+    {
+        "id": "9",
+        "title": "32-ounce flip top bottles, set of 7",
+        "image": "./images/9.jpg",
+        "description": "These bottles previously held mead. They have since been washed and stored."
+    },
+    {
+        "id": "10",
+        "title": "Samsung SyncMaster 2494 monitor",
+        "image": "./images/10.jpg",
+        "description": "Works. It accepts VGA or DVI connectors (or an appropriate converter). I can provide cables."
+    }
+]

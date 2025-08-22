@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+
+export async function getStaticPaths() {
+    const items = await getCollection('itemCollection');
+
+    return items.map((item: any) => ({
+        params: { id: item.id },
+        props: { item }
+    }));
+}
+
+const { item } = Astro.props;
+---
+
+<BaseLayout pageTitle={item.data.title}>
+    <Image src={item.data.image} alt="" layout="constrained" height={800} fit="scale-down"></Image>
+    <p>{item.data.description}</p>
+    <a href="/">Back to list</a>
+</BaseLayout>
