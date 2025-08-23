@@ -1,11 +1,4 @@
-[
-    {
-        "id": "1",
-        "title": "Logitech Z-2300 THX 2.1 speakers and subwoofer",
-        "image": "./images/1.jpg",
-        "description": "The subwoofer and control panel work great. The satellites buzz at high volumes, but work fine when turned down.",
-        "priority": false
-    },
+[  
     {
         "id": "2",
         "title": "Wooden work table",
@@ -42,31 +35,17 @@
         "priority": false
     },
     {
-        "id": "7",
-        "title": "Lodge Cast Iron Square Grill Pan",
-        "image": "./images/7.jpg",
-        "description": "Rarely used, in good condition.",
-        "priority": false
-    },
-    {
         "id": "8",
-        "title": "One-gallon glass jars, set of 6",
+        "title": "One-gallon glass jars (QTY: 4)",
         "image": "./images/8.jpg",
         "description": "These jars previously held refrigerated kimchi. They have since been washed and stored.",
         "priority": false
     },
     {
         "id": "9",
-        "title": "32-ounce flip top bottles, set of 7",
+        "title": "32-ounce flip top bottles (QTY: 5)",
         "image": "./images/9.jpg",
         "description": "These bottles previously held mead. They have since been washed and stored.",
-        "priority": false
-    },
-    {
-        "id": "10",
-        "title": "Samsung SyncMaster 2494 monitor",
-        "image": "./images/10.jpg",
-        "description": "Works. It accepts VGA or DVI connectors (or an appropriate converter). I can provide cables.",
         "priority": false
     },
     {
@@ -77,31 +56,10 @@
         "priority": false
     },
     {
-        "id": "12",
-        "title": "Pandemic Legacy Season 2 board game",
-        "image": "./images/12.jpg",
-        "description": "New and sealed.",
-        "priority": false
-    },
-    {
         "id": "13",
         "title": "Funko League of Legends Lee Sin figure",
         "image": "./images/13.jpg",
         "description": "New and sealed.",
-        "priority": false
-    },
-    {
-        "id": "14",
-        "title": "Hintegers board game",
-        "image": "./images/14.jpg",
-        "description": "New and sealed.",
-        "priority": false
-    },
-    {
-        "id": "15",
-        "title": "Munchkin and Star Munchkin board games",
-        "image": "./images/15.jpg",
-        "description": "",
         "priority": false
     },
     {
@@ -119,38 +77,10 @@
         "priority": false
     },
     {
-        "id": "18",
-        "title": "Prestige Medical stethoscope",
-        "image": "./images/18.jpg",
-        "description": "",
-        "priority": false
-    },
-    {
-        "id": "19",
-        "title": "Psyclone four-device component video switch",
-        "image": "./images/19.jpg",
-        "description": "Works. Useful for connecting multiple retro video game consoles to a single television.",
-        "priority": false
-    },
-    {
-        "id": "20",
-        "title": "Anchor Bay DVDO iScan HD video scaling engine",
-        "image": "./images/20.jpg",
-        "description": "Works. Useful for upscaling the resolution of older game consoles to support newer televisions.",
-        "priority": false
-    },
-    {
         "id": "21",
         "title": "XBOX Live Gold subscription card",
         "image": "./images/21.jpg",
         "description": "Unused but very old; no idea if it works.",
-        "priority": false
-    },
-    {
-        "id": "22",
-        "title": "Sans Digital TowerRAID TR4M 4-drive bay",
-        "image": "./images/22.jpg",
-        "description": "Comes with the interface card. Useful for connecting multiple 3.5\" hard drives to a computer in a RAID or JBOD configuration.",
         "priority": false
     },
     {
@@ -159,19 +89,5 @@
         "image": "./images/23.jpg",
         "description": "",
         "priority": true
-    },
-    {
-        "id": "24",
-        "title": "Apple iMac (2011)",
-        "image": "./images/24.jpg",
-        "description": "Top glass is cracked, but the screen underneath is intact. Unsure if it's working, but it will need a new hard drive (at least).",
-        "priority": false
-    },
-    {
-        "id": "25",
-        "title": "Oster blender with glass jar",
-        "image": "./images/25.jpg",
-        "description": "",
-        "priority": false
     }
 ]
