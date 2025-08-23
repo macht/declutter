@@ -2,11 +2,22 @@
 import { getCollection } from "astro:content";
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Jar's Free Stuff";
-const items = await getCollection('itemCollection');
+const priorityItems = await getCollection('itemCollection', ({ data }) => { return data.priority == true });
+const standarditems = await getCollection('itemCollection', ({ data }) => { return data.priority !== true });
 ---
 
 <BaseLayout pageTitle={pageTitle}>
+	<h2>High priority (i.e., furniture):</h2>
 	<ul>
-		{items.map((item: any) => <li><a href={`/items/${item.id}/`}>{item.data.title}</a></li>)}
+		{priorityItems
+			.sort((a, b) => a.data.title.localeCompare(b.data.title))
+			.map((item: any) => <li><a href={`/items/${item.id}/`}>{item.data.title}</a></li>)}
+	</ul>
+
+	<h2>Everything else:</h2>
+	<ul>
+		{standarditems
+			.sort((a, b) => a.data.title.localeCompare(b.data.title))
+			.map((item: any) => <li><a href={`/items/${item.id}/`}>{item.data.title}</a></li>)}
 	</ul>
 </BaseLayout>

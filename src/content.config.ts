@@ -6,7 +6,8 @@ const itemCollection = defineCollection({
     schema: ({ image }) => z.object({
         title: z.string(),
         image: image(),
-        description: z.string()
+        description: z.string(),
+        priority: z.boolean()
     })
 });
 
