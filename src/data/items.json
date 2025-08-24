@@ -7,13 +7,6 @@
         "priority": true
     },
     {
-        "id": "3",
-        "title": "Boxing gloves and handwraps",
-        "image": "./images/3.jpg",
-        "description": "New and unused.",
-        "priority": false
-    },
-    {
         "id": "4",
         "title": "Thermos stainless steel water bottle",
         "image": "./images/4.jpg",
@@ -22,17 +15,10 @@
     },
     {
         "id": "5",
-        "title": "Dining chairs, matching set of 6",
+        "title": "Chairs, set of 3",
         "image": "./images/5.jpg",
         "description": "",
         "priority": true
-    },
-    {
-        "id": "6",
-        "title": "Rachael Ray 5-Quart Nonstick Saute Pan with lid",
-        "image": "./images/6.jpg",
-        "description": "Rarely used, in excellent condition.",
-        "priority": false
     },
     {
         "id": "8",
@@ -82,12 +68,5 @@
         "image": "./images/21.jpg",
         "description": "Unused but very old; no idea if it works.",
         "priority": false
-    },
-    {
-        "id": "23",
-        "title": "Storage cabinet with 3 drawers",
-        "image": "./images/23.jpg",
-        "description": "",
-        "priority": true
     }
 ]
