@@ -7,17 +7,23 @@ const standarditems = await getCollection('itemCollection', ({ data }) => { retu
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-	<h2>High priority (i.e., furniture):</h2>
-	<ul>
-		{priorityItems
-			.sort((a, b) => a.data.title.localeCompare(b.data.title))
-			.map((item: any) => <li><a href={`/items/${item.id}/`}>{item.data.title}</a></li>)}
-	</ul>
+	{priorityItems?.length > 0 && 
+		<div>
+			<h2>High priority (i.e., furniture):</h2>
+			<ul>
+				{priorityItems
+					.sort((a, b) => a.data.title.localeCompare(b.data.title))
+					.map((item: any) => <li><a href={`/items/${item.id}/`}>{item.data.title}</a></li>)}
+			</ul>
+		</div>
+	}
 
-	<h2>Everything else:</h2>
-	<ul>
-		{standarditems
-			.sort((a, b) => a.data.title.localeCompare(b.data.title))
-			.map((item: any) => <li><a href={`/items/${item.id}/`}>{item.data.title}</a></li>)}
-	</ul>
+	<div>
+		<h2>Everything else:</h2>
+		<ul>
+			{standarditems
+				.sort((a, b) => a.data.title.localeCompare(b.data.title))
+				.map((item: any) => <li><a href={`/items/${item.id}/`}>{item.data.title}</a></li>)}
+		</ul>
+	</div>
 </BaseLayout>

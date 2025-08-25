@@ -1,11 +1,4 @@
-[  
-    {
-        "id": "2",
-        "title": "Wooden work table",
-        "image": "./images/2.jpg",
-        "description": "Worn, but solid.",
-        "priority": true
-    },
+[
     {
         "id": "4",
         "title": "Thermos stainless steel water bottle",
